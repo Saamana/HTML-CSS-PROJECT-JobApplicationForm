@@ -4,50 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Tribute Website| Edmund Hillary</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="container">
-        <div class="content">
-            <section class="top_section">
-                <div class="image_container">
-                    <img src="./images/Edmund-Hillary.jpg" alt="tribute" />
+        <div class="apply_box">
+            <h1>
+                Job Application<span class="title_small">(Web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+
+                    <div class="form_control">
+                        <label for="First Name">First Name</label>
+                        <input id="First Name" name="First Name" placeholder="Enter First Name..."/>
+                    </div>
+                    <div class="form_control">
+                        <label for="Last Name">Last Name</label>
+                        <input id="Last Name" name="Last Name" placeholder="Enter last Name..."/>
+                    </div>
+                    <div class="form_control">
+                        <label for="Email">Email</label>
+                        <input type="Email" id="Email" name="Last Name" placeholder="Enter Email..."/>
+                    </div>
+                    <div class="form_control">
+                        <label for="date_of_birth">Date Of Birth</label>
+                        <input value="2022-07-21" type="date" id="date_of_birth" name="date_of_birth"/>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="address">Address</label>
+                        <input id="address" name="address" placeholder="Enter Your Address..."/>
+                    </div>
+                    <div class="form_control">
+                        <label for="city">City</label>
+                        <input id="city" name="city" placeholder="Enter city name..."/>
+                    </div>
+                    <div class="form_control">
+                        <label for="postal_code">Postal Code</label>
+                        <input type="number" id="postal_code" name="postal code" placeholder="Enter postal code ..."/>
+                    </div>
+                    <div class="form_control">
+                        <label for="job_role">Job Role</label>
+                        <select id="job_role" name="job_role">
+                            <option value="">Select Job Role</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="full_stack">Full Stack Developer</option>
+                            <option value="ui_ux">UI UX Designer</option>
+                        </select>
+                    </div>
+                    <div class="form_control">
+                        <label for="cover_letter">Cover Letter</label>
+                        <textarea id="cover_letter" name="cover_letter" row= "4" cols= "50" placeholder="Write Your Cover Letter here"></textarea>
+                    </div>
+
+                    <div class="textarea_control">
+                        <label for="upload">Upload Your CV</label>
+                        <input type="file" id="upload" name="upload"/>
+                    </div>
                 </div>
-                <div>
-                    <h1>Sir Edmund Hillary</h1>
-                    <h4>1919-2008</h4>
+                <div class="button_container">
+                    <button type="submit">Apply Now</button>
                 </div>
-            </section>
-            <section class="about_section">
-                <h2> The Legendary Mountaineer, Adventurer and Philanthropist</h2>
-                <p>Sir Edmund Percival Hillary (20 July 1919-11 January 2008) was a New Zealand mountaineer, explorer, and philanthropist. On 29 May 1953, Hillary and Sherpa mountaineer Tenzing Norgay became the first climbers confirmed to have reached the summit of Mount Everest. They were part of the ninth British expedition to Everest, led by John Hunt. From 1985 to 1988 he served as New Zealand's High Commissioner to India and Bangladesh and concurrently as Ambassador to Nepal.
-                    Hillary became interested in mountaineering while in secondary school. He made his first major climb in 1939, reaching the summit of Mount Ollivier. He served in the Royal New Zealand Air Force as a navigator during World War II and was wounded in an accident. Prior to the Everest expedition, Hillary had been part of the British reconnaissance expedition to the mountain in 1951 as well as an unsuccessful attempt to climb Cho Oyu in 1952.
-                    As part of the Commonwealth Trans-Antarctic Expedition he reached the South Pole overland in 1958. He subsequently reached the North Pole, making him the first person to reach both poles and summit Everest. Time named him one of the 100 most influential people of the 20th century.
-                    Beginning in 1960, Hillary devoted himself to assisting the Sherpa people of Nepal through the Himalayan Trust, which he established. His efforts are credited with the construction of many schools and hospitals in Nepal. Hillary had numerous honours conferred upon him, including the Order of the Garter in 1995. Upon his death in 2008, he was given a state funeral in New Zealand.
-                    </p>
-            </section>
-            <section class="biography_section">
-                <h3>Biographies</h3>
-                <ul>
-                    <li>
-                        Edmund Hillary biography from the Dictionary of New Zealand Biography
-                
-                    </li>
-                    <li>
-                        On top of the world: Ed Hillary at nzhistory.net.nz
-                    </li>
-                    <li>Works by or about Edmund Hillary at Internet Archive</li>
-                    <li>Obituary of Edmund Hillary at tributes.com</li>
-                    <li>Edmund Hillary's collection at Auckland War Memorial Museum Tāmaki Paenga Hira</li>
-                    <li>Edmund Hillary addressing The New York Herald Tribune Book and Author Luncheon, February 10, 1954 broadcast by WNYC</li>
-                </ul>
-            </section>
-            <footer>
-                <p>Read more about Edmund Hillary on <a href="https://en.wikipedia.org/wiki/Edmund_Hillary">wikipedia.</p>
-            </footer>
+            </form>
         </div>
     </div>
-    
 </body>
 </html>
